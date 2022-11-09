@@ -1,0 +1,89 @@
+body {
+    font-size: 1.5rem;
+}
+
+.container {
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    min-width: 360px;
+}
+
+.array-input-lable {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.array-input {
+    display: block;
+    height: 50px;
+    box-sizing: border-box;
+    outline: none;
+    width: 600px;
+    max-width: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font: inherit;
+    margin-bottom: 10px;
+}
+
+.submit-array {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #09a0aa;
+    font: inherit;
+    width: 600px;
+    max-width: 100%;
+}
+
+.submit-array:hover {
+    background-color: #06585e;
+    transform: scale(1.02);
+}
+
+.array-input:focus {
+    border: 1px solid #09a0aa;
+    box-shadow: 0 0 5px #09a0aa;
+}
+
+.input-error {
+    color: red;
+}
+
+.array {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.array-element {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.array-element.swapped {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+}
+
+.array-element.compared {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+}
+
+.comparing {
+    color: blue;
+}
+
+.swapping {
+    color: red;
+}
